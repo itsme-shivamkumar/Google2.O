@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Footer = () => {
+export const Search = () => {
   return (
     <div>
-      Footer
+      Search
     </div>
   )
-}
-
-export {Footer};
+};

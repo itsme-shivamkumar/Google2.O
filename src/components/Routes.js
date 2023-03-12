@@ -1,10 +1,15 @@
 import React from 'react'
-import '../index.css';
-
+import {Switch, Route, Redirect} from 'react-router-dom';
+import {Results} from './Results';
 export const Routes = () => {
   return (
-    <div>
-      Routes
-    </div>
+    <Switch>
+       <Route exact path="/">
+         <Redirect to="/search" />
+       </Route>
+       <Route exact path={['/search','/news','/images','/videos']}>
+        <Results/>
+       </Route>
+    </Switch>
   )
 };
