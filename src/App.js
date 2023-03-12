@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import {Footer} from './components/Footer';
 import {Navbar} from './components/Navbar';
 import {Routes} from './components/Routes';
-import {Link} from 'react-router-dom';
 import './index.css';
 const App = () => {
 
@@ -12,9 +11,10 @@ const App = () => {
     const [darkTheme,setDarkTheme]=useState(false);
     
   return (
-    <div>
-        <div>
-            <Navbar/>
+    <div className={darkTheme?'dark':''}>
+        <div className="bg-gray-100 dark:bg-gray-900 dark:text-white min-h-screen">
+            App
+            <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme}/>
             <Routes/>
             <Footer/>
         </div>
