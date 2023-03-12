@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Google2.O/static/css/main.1f8dac2b.css",
+    "main.js": "/Google2.O/static/js/main.3eb9a1f3.js",
+    "index.html": "/Google2.O/index.html",
+    "main.1f8dac2b.css.map": "/Google2.O/static/css/main.1f8dac2b.css.map",
+    "main.3eb9a1f3.js.map": "/Google2.O/static/js/main.3eb9a1f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f8dac2b.css",
+    "static/js/main.3eb9a1f3.js"
+  ]
+}
