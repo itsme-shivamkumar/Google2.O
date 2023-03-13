@@ -7,7 +7,10 @@ const key=[
     process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_2,
     process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_3,
     process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_4,
-    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_5
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_5,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_6,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_7,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_8
 ];
 
 export const ResultContextProvider=({children})=>{
