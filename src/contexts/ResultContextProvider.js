@@ -3,14 +3,15 @@ const ResultContext=createContext();
 const baseURL='https://real-time-web-search.p.rapidapi.com/search';
 
 const key=[
-    '0da8b1d6e1msh6f44233a015226cp105b57jsndbd1394341d8',//Vaishali
-    '6b0e67de86mshd98e315c304c079p13c967jsnf23f2104e8fc',//DevItUp
-    'a2472f26e3msh9c0210bd9614032p1c82dcjsn5b02b5e17775',//mttnickevin
-    '5703d25591mshc70566f90974bd2p17dc54jsnb1298de4a0a9',//sherlockshivam2.x
-    '1ff1c0d13emsh656cba4b5869001p16e3dfjsnb573c547e40f'//shivk
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_1,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_2,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_3,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_4,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_5
 ];
 
 export const ResultContextProvider=({children})=>{
+    console.log(key)
     const [result,setResult]=useState([]);
     const [isLoading,setIsLoading]=useState(false);
     const [searchTerm,setSearchTerm]=useState("");
@@ -32,6 +33,7 @@ export const ResultContextProvider=({children})=>{
             // till here
         });
         try{
+            console.log("key is ",key)
             const data=await response.json();
             if(data.data)setResult(data.data);
             else{
