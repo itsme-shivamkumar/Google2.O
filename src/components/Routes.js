@@ -4,7 +4,7 @@ import {Results} from './Results';
 export const Routes = () => {
   return (
     <Switch>
-       <Route exact path="/">
+       <Route exact path={["/","/Google2.O"]}>
          <Redirect to="/search" />
        </Route>
        <Route exact path={['/search','/news','/images','/videos']}>
