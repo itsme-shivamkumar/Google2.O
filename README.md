@@ -38,21 +38,32 @@ Access my site at [Google2.O](https://itsme-shivamkumar.github.io/Google2.O/)
  - This helped in reducing errors and getting results with less latency, as each API has a monthly limit.
 
 ## Screenshots
-### Active States
- -Active State(Desktop):
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
- -Active State(Tablets & small devices):
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
- -Active State(Mobile):
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
-### Passive States
- -On Desktop:
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
- -On Tablets & small devices:
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
- -On Mobile phones:
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
+### Desktop States<br/>
+ <b>Homepage(Light Theme)</b><br/><br/>
+ <img src="./screenshots/lightDesktop.png" /><br/>
+ <b>Homepage(Dark Theme)</b><br/><br/>
+ <img src="./screenshots/darkDesktop.png" /><br/>
+ <b>Active(Light Theme)</b><br/><br/>
+ <img src="./screenshots/lightDesktopActive.png" /><br/>
+ <b>Active(Dark Theme)</b><br/><br/>
+ <img src="./screenshots/darkDesktopActive.png" /><br/>
 
+### Tablet States<br/>
+ <b>Homepage(Light Theme)</b><br/><br/>
+ <img src="./screenshots/lightTablet.png" /><br/>
+ <b>Homepage(Dark Theme)</b><br/><br/>
+ <img src="./screenshots/darkTablet.png" /><br/>
+
+### Mobile States<br/>
+ <b>Homepage(Light Theme)</b><br/><br/>
+ <img src="./screenshots/lightMobile.png" /><br/>
+ <!--b>Active(Dark Theme)</b>
+ <img src="./screenshots/darkMobileActive.png" />
+ <b>Active(Light Theme)</b>
+ <img src="./screenshots/lightMobileActive.png" /><br/><br/-->
+
+### Loading Animation<br/>
+ <img src="./screenshots/loading.gif" /><br/>
 
 ## Setup
 - download or clone the repository
