@@ -10,7 +10,11 @@ const key=[
     process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_5,
     process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_6,
     process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_7,
-    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_8
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_8,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_9,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_10,
+    process.env.REACT_APP_REALTIME_WEB_SEARCH_API_KEY_11
+
 ];
 
 export const ResultContextProvider=({children})=>{
@@ -45,8 +49,8 @@ export const ResultContextProvider=({children})=>{
     }
     return (
         <ResultContext.Provider value={{err,result,isLoading,getResults,searchTerm,setSearchTerm}}>
-            {children};
+            {children}
         </ResultContext.Provider>
     );
 }
-export const useResultContext=()=>useContext(ResultContext);
+export const useResultContext=()=>useContext(ResultContext)
