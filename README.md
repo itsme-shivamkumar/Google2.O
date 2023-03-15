@@ -57,10 +57,8 @@ Access my site at [Google2.O](https://itsme-shivamkumar.github.io/Google2.O/)
 ### Mobile States<br/>
  <b>Homepage(Light Theme)</b><br/><br/>
  <img src="./screenshots/lightMobile.png" /><br/>
- <!--b>Active(Dark Theme)</b>
- <img src="./screenshots/darkMobileActive.png" />
- <b>Active(Light Theme)</b>
- <img src="./screenshots/lightMobileActive.png" /><br/><br/-->
+ <b>Active(Dark && Light Theme)</b><br/>
+ <img src="./screenshots/mobileActive.png" /><br/><br/>
 
 ### Loading Animation<br/>
  <img src="./screenshots/loading.gif" /><br/>
