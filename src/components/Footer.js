@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import {useResultContext} from '../contexts/ResultContextProvider';
 const Footer = () => {
   const {result}=useResultContext();

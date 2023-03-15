@@ -1,18 +1,16 @@
 import React,{useEffect, useRef}from 'react'
-import { useLocation } from 'react-router-dom';
 import {Loading} from './Loading';
 
 import { useResultContext } from '../contexts/ResultContextProvider';
 export const Results = () => {
     const {result,getResults,isLoading,searchTerm,err} = useResultContext();
-    const location = useLocation();
     // API CALL
     const handleRetry=useRef(false);
     useEffect(()=>{
-        if(location.pathname==='/search'&& searchTerm)getResults(searchTerm);
+        if(searchTerm)getResults(searchTerm);
     },[searchTerm]);
     useEffect(()=>{
-        if(handleRetry.current===true)if(location.pathname==='/search'&& searchTerm)getResults(searchTerm);
+        if(handleRetry.current===true)if(searchTerm)getResults(searchTerm);
         handleRetry.current=false;
     },[handleRetry])
 
